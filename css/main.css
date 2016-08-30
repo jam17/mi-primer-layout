@@ -1,0 +1,148 @@
+
+*{
+box-sizing: border-box;
+margin:0;
+padding: 0;
+
+}
+
+
+h5{
+	position: left;
+	color: black;
+
+}
+
+
+p{
+
+text-align: center;
+
+
+}
+br{
+	float: left;
+}
+.container{
+border:1px;
+width: 100%];
+max-width: 1200px;
+margin:0;
+text-align: center;
+}
+
+.row:before , .row:after{
+
+content: "";
+display: table;
+
+}
+
+.row:after{
+clear:both;
+
+}
+
+ul {
+	margin:auto;
+}
+li{
+	display: inline-block;
+	color:black;
+
+}
+
+[class*="col-"]{
+	min-height: 7px;
+	padding: 12px;
+	float: left;
+}
+.col-1{
+	width: 8.333333%;
+}
+
+.col-2 {
+	width: 16.666667%
+}
+
+.col-3{
+	width: 25%
+}
+
+.col-4{
+width: 33.333333%
+
+}
+.col-5{
+	width: 41.666667%;
+}
+
+
+.col-6{
+width: 50%
+
+}
+.col-7{
+	width: 58.333333%
+}
+
+.col-8{
+
+	width: 66.666667%
+}
+.col-9{
+
+	width: 75%
+}
+.col-10{
+	width: 83.3333333%
+}
+
+.col-11{
+
+	width: 91.666667%
+}
+
+.col-12{
+	width:100% 
+
+}
+
+.grid-portafolio{
+	padding: 2%;
+}
+
+.coder-details{
+
+	border:1px solid black;
+	position: relative;
+	margin:20px;
+	width: 100%];
+	max-width: 1200px;
+	margin:0;
+	text-align: center;
+
+}
+
+.foto{
+	border-radius: 20px;
+}
+
+span{
+	border:1px solid grey;
+	
+	background-color: grey;
+	width: 40px;
+
+
+}
+
+.perfil{
+	display: inline-block;
+	float: left;
+
+
+}
+h2{
+	float:left;
+}
